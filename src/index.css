@@ -26,10 +26,6 @@
   @apply font-mono text-[10px] uppercase tracking-wider text-blue-600 font-bold;
 }
 
-.ad-placeholder {
-  @apply border border-dashed border-blue-200 rounded-none flex items-center justify-center text-blue-400 text-[10px] uppercase tracking-[0.2em] min-h-[80px] my-12 bg-blue-50/30;
-}
-
 .markdown-body h2 {
   @apply text-2xl font-bold mt-16 mb-8 text-[#1A1A1A] uppercase tracking-tight border-b-2 border-blue-600 pb-2 inline-block;
 }

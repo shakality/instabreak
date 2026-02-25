@@ -81,11 +81,7 @@ export default function Home() {
         </p>
       </header>
 
-      <div className="ad-placeholder border-blue-100 bg-blue-50/20">Advertisement // Placement_01</div>
-
       <BioFixer />
-
-      <div className="ad-placeholder border-blue-100 bg-blue-50/20">Advertisement // Placement_02</div>
 
       <article className="max-w-4xl mx-auto mt-32 markdown-body">
         <div className="border-t-4 border-blue-600 pt-12">
@@ -144,8 +140,6 @@ export default function Home() {
           </div>
         </div>
       </article>
-
-      <div className="ad-placeholder">Advertisement - Above Footer</div>
     </div>
   );
 }
