@@ -1,0 +1,5 @@
+{
+  "name": "InstaBreak - Instagram Bio Line Break Fixer",
+  "description": "A specialized web utility for preserving line breaks and whitespace in Instagram profiles using Unicode separators.",
+  "requestFramePermissions": []
+}

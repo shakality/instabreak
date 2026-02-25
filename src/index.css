@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F4F1EA] text-[#1A1A1A] font-sans antialiased;
+  }
+}
+
+/* Technical Grid Pattern with subtle color */
+.bg-grid {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #2563eb 1px, transparent 1px);
+  opacity: 0.05;
+}
+
+.border-technical {
+  @apply border border-[#1A1A1A];
+}
+
+.label-mono {
+  @apply font-mono text-[10px] uppercase tracking-wider text-blue-600 font-bold;
+}
+
+.ad-placeholder {
+  @apply border border-dashed border-blue-200 rounded-none flex items-center justify-center text-blue-400 text-[10px] uppercase tracking-[0.2em] min-h-[80px] my-12 bg-blue-50/30;
+}
+
+.markdown-body h2 {
+  @apply text-2xl font-bold mt-16 mb-8 text-[#1A1A1A] uppercase tracking-tight border-b-2 border-blue-600 pb-2 inline-block;
+}
+
+.markdown-body p {
+  @apply mb-6 text-[#333] leading-relaxed text-base max-w-2xl;
+}
+
+.markdown-body ul {
+  @apply list-none pl-0 mb-8 text-[#333] space-y-3;
+}
+
+.markdown-body li {
+  @apply flex gap-3 before:content-['→'] before:text-blue-500 font-medium;
+}
+
+.btn-brutal {
+  @apply bg-blue-600 text-white hover:bg-blue-700 transition-all active:translate-y-0.5 rounded-none font-mono text-xs uppercase tracking-widest py-4 px-8 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)];
+}
+
+.input-technical {
+  @apply w-full bg-white border-2 border-black rounded-none p-6 text-[#1A1A1A] placeholder:text-black/20 focus:outline-none focus:border-blue-600 transition-colors font-mono text-sm shadow-[4px_4px_0px_0px_rgba(37,99,235,0.1)];
+}
